@@ -1,0 +1,30 @@
+# README:
+
+# Blocks, Procs, Lambdas -- Oh My!
+# John Quarto-vonTivadar
+# (john@johnquarto.com, github.com/jcquarto)
+
+# based on a presentation I made in Sept 2012 to the Austin 
+# Ruby & Rails MeetUp group
+
+# Blocks, Procs, Lambdas are confusing at first -- 
+# yet, you secretly know you'd be
+# better off if you grokked this.  Here's a quick overview of 
+# the differences and similarity of these three siblings from
+# the Closures family.
+
+# read examples in this order: Blocks, Procs, Lambdas, Closures
+# each file contain one example illustrating a point
+# you can run each set of code with:
+#  ruby <file_name>.rb
+
+# Take-aways:
+#
+# 1 Lambdas have strict parameter checking and weak returns
+# 2 Procs have no parameter checking and strong returns
+# 3 Blocks and Lambdas are just anonymous Procs
+#
+# 4 There is much deeper insight -- but let this sink in first
+#
+# check out:
+# http://www.robertsosinski.com/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/l
